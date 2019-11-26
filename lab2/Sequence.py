@@ -11,15 +11,10 @@ class Sequence:
 	def validate(self, seq=None):
 		'''Return the boolean value of dot bracket validation.
 		>>> S.validate('..()..')
-		True
-		>>> S.validate('..()).')
-		False'''
-
-		# sequence eq itself if exists, else eq self sequence
+		True'''
 		seq = self.seq if seq is None else seq
-
 		OPEN_PAR, CLOSED_PAR = '(', ')'
-		brackets_map, valid_chars = {'(': ')'}, {'(', ')', '.'}
+		pars_map, valid_chars = {'(': ')'}, {'(', ')', '.'}
 		stack, pars = [], []
 
 		for char in seq:
@@ -30,15 +25,13 @@ class Sequence:
 			if char == OPEN_PAR or char == CLOSED_PAR:
 				pars.append(char)
 				
-		for bracket in pars:
-			if bracket in brackets_map:
-				# Add coresponding bracket
-				stack.append(brackets_map[bracket])
+		for par in pars:
+			if par in pars_map:
+				stack.append(pars_map[par])
 			# If stack empty or last bracket not valid
-			elif not stack or bracket != stack.pop():
+			elif not stack or par != stack.pop():
 				return False
-		# True if empty else False
-		return True if not stack else False 
+		return not stack
 		
 if __name__ == '__main__':
 	S = Sequence()
