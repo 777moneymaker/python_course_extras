@@ -1,0 +1,178 @@
+LOCUS       XM_638989               2715 bp    mRNA    linear   INV 29-JAN-2010
+DEFINITION  Dictyostelium discoideum AX4 RNA recognition motif-containing
+            protein RRM (DDB_G0274523) mRNA, complete cds.
+ACCESSION   XM_638989
+VERSION     XM_638989.1
+KEYWORDS    RefSeq.
+SOURCE      Dictyostelium discoideum AX4
+  ORGANISM  Dictyostelium discoideum AX4
+            Eukaryota; Amoebozoa; Mycetozoa; Dictyosteliida; Dictyostelium.
+REFERENCE   1  (bases 1 to 2715)
+  AUTHORS   Eichinger,L., Pachebat,J.A., Glockner,G., Rajandream,M.A.,
+            Sucgang,R., Berriman,M., Song,J., Olsen,R., Szafranski,K., Xu,Q.,
+            Tunggal,B., Kummerfeld,S., Madera,M., Konfortov,B.A., Rivero,F.,
+            Bankier,A.T., Lehmann,R., Hamlin,N., Davies,R., Gaudet,P., Fey,P.,
+            Pilcher,K., Chen,G., Saunders,D., Sodergren,E., Davis,P.,
+            Kerhornou,A., Nie,X., Hall,N., Anjard,C., Hemphill,L., Bason,N.,
+            Farbrother,P., Desany,B., Just,E., Morio,T., Rost,R., Churcher,C.,
+            Cooper,J., Haydock,S., van Driessche,N., Cronin,A., Goodhead,I.,
+            Muzny,D., Mourier,T., Pain,A., Lu,M., Harper,D., Lindsay,R.,
+            Hauser,H., James,K., Quiles,M., Madan Babu,M., Saito,T.,
+            Buchrieser,C., Wardroper,A., Felder,M., Thangavelu,M., Johnson,D.,
+            Knights,A., Loulseged,H., Mungall,K., Oliver,K., Price,C.,
+            Quail,M.A., Urushihara,H., Hernandez,J., Rabbinowitsch,E.,
+            Steffen,D., Sanders,M., Ma,J., Kohara,Y., Sharp,S., Simmonds,M.,
+            Spiegler,S., Tivey,A., Sugano,S., White,B., Walker,D., Woodward,J.,
+            Winckler,T., Tanaka,Y., Shaulsky,G., Schleicher,M., Weinstock,G.,
+            Rosenthal,A., Cox,E.C., Chisholm,R.L., Gibbs,R., Loomis,W.F.,
+            Platzer,M., Kay,R.R., Williams,J., Dear,P.H., Noegel,A.A.,
+            Barrell,B. and Kuspa,A.
+  TITLE     The genome of the social amoeba Dictyostelium discoideum
+  JOURNAL   Nature 435 (7038), 43-57 (2005)
+   PUBMED   15875012
+REFERENCE   2  (bases 1 to 2715)
+  AUTHORS   Glockner,G., Eichinger,L., Szafranski,K., Pachebat,J.A.,
+            Bankier,A.T., Dear,P.H., Lehmann,R., Baumgart,C., Parra,G.,
+            Abril,J.F., Guigo,R., Kumpf,K., Tunggal,B., Cox,E., Quail,M.A.,
+            Platzer,M., Rosenthal,A. and Noegel,A.A.
+  CONSRTM   Dictyostelium Genome Sequencing Consortium
+  TITLE     Sequence and analysis of chromosome 2 of Dictyostelium discoideum
+  JOURNAL   Nature 418 (6893), 79-85 (2002)
+   PUBMED   12097910
+REFERENCE   3  (bases 1 to 2715)
+  AUTHORS   Eichinger,L., Pachebat,J.A., Gloeckner,G., Rajandream,M.-A.,
+            Sucgang,R., Song,J., Cox,E.C., Tunggal,B., Szafranski,K.,
+            Konfortov,B.A., Farbrother,P., Bankier,A.T., Lehmann,R., Hamlin,N.,
+            Xu,Q., Davies,R., Gaudet,P., Fey,P., Pilcher,K., Chen,G.,
+            Saunders,D., Sodergren,E., Davis,P., Nie,X., Kerhornou,A.,
+            Hemphill,L., Bason,N., Berriman,M., Desany,B., Churcher,C.,
+            Cooper,J., van Driessche,N., Cronin,A., Goodhead,I., Muzny,D.,
+            Hall,N., Harper,D., Lindsay,R., Hauser,H., James,K., Quiles,M.,
+            Buchrieser,C., Wardroper,A., Thangavelu,M., Johnson,D., Knights,A.,
+            Loulseged,H., Mungall,K., Price,C., Ma,J., Quail,M., Hernandez,J.,
+            Rabbinowitsch,E., Steffen,D., Sanders,M., Weinstock,G., Sharp,S.,
+            Just,E., Shaulsky,G., Simmonds,M., Tivey,A., White,B., Walker,D.,
+            Woodward,J., Winckler,T., Schleicher,M., Rosenthal,A., Rivero,F.,
+            Chisholm,R.L., Gibbs,R., Loomis,W.F., Platzer,M., Kay,R.R.,
+            Williams,J., Dear,P.H., Noegel,A.A., Barrell,B. and Kuspa,A.
+  CONSRTM   The Dictyostelium discoideum Sequencing Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2009) dictyBase, Center for Genetic Medicine,
+            Northwestern University, 303 E Chicago Ave, Chicago, IL 60611, USA
+REFERENCE   4  (bases 1 to 2715)
+  AUTHORS   Eichinger,L., Pachebat,J.A., Gloeckner,G., Rajandream,M.-A.,
+            Sucgang,R., Song,J., Cox,E.C., Tunggal,B., Szafranski,K.,
+            Konfortov,B.A., Farbrother,P., Bankier,A.T., Lehmann,R., Hamlin,N.,
+            Xu,Q., Davies,R., Gaudet,P., Fey,P., Pilcher,K., Chen,G.,
+            Saunders,D., Sodergren,E., Davis,P., Nie,X., Kerhornou,A.,
+            Hemphill,L., Bason,N., Berriman,M., Desany,B., Churcher,C.,
+            Cooper,J., van Driessche,N., Cronin,A., Goodhead,I., Muzny,D.,
+            Hall,N., Harper,D., Lindsay,R., Hauser,H., James,K., Quiles,M.,
+            Buchrieser,C., Wardroper,A., Thangavelu,M., Johnson,D., Knights,A.,
+            Loulseged,H., Mungall,K., Price,C., Ma,J., Quail,M., Hernandez,J.,
+            Rabbinowitsch,E., Steffen,D., Sanders,M., Weinstock,G., Sharp,S.,
+            Just,E., Shaulsky,G., Simmonds,M., Tivey,A., White,B., Walker,D.,
+            Woodward,J., Winckler,T., Schleicher,M., Rosenthal,A., Rivero,F.,
+            Chisholm,R.L., Gibbs,R., Loomis,W.F., Platzer,M., Kay,R.R.,
+            Williams,J., Dear,P.H., Noegel,A.A., Barrell,B. and Kuspa,A.
+  CONSRTM   The Dictyostelium discoideum Sequencing Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-OCT-2004) dictyBase, Center for Genetic Medicine,
+            Northwestern University, 303 E Chicago Ave, Chicago, IL 60611, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NC_007088).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..2715
+                     /organism="Dictyostelium discoideum AX4"
+                     /mol_type="mRNA"
+                     /strain="AX4"
+                     /db_xref="taxon:352472"
+                     /chromosome="2"
+                     /note="terminal gaps represent complex repetitive
+                     elements"
+     gene            <1..>2715
+                     /locus_tag="DDB_G0274523"
+                     /old_locus_tag="DDB_0167741"
+                     /old_locus_tag="DDB_0233759"
+                     /old_locus_tag="DDBDRAFT_0167741"
+                     /old_locus_tag="DDBDRAFT_0233759"
+                     /db_xref="dictyBase:DDB_G0274523"
+                     /db_xref="GeneID:8619510"
+     CDS             1..2715
+                     /locus_tag="DDB_G0274523"
+                     /old_locus_tag="DDB_0167741"
+                     /old_locus_tag="DDB_0233759"
+                     /old_locus_tag="DDBDRAFT_0167741"
+                     /old_locus_tag="DDBDRAFT_0233759"
+                     /codon_start=1
+                     /product="RNA recognition motif-containing protein RRM"
+                     /protein_id="XP_644081.1"
+                     /db_xref="dictyBase:DDB0233759"
+                     /db_xref="dictyBase:DDB_G0274523"
+                     /db_xref="GeneID:8619510"
+                     /translation="MQMDESELLDKSPNPSSSPQSLSSPKKVFSPSEKPYDTHELIIN
+                     NEQQPQEEINQQQNENQSLQINNNNNNNNNNNNNNNNNNNNNNNNNNNNNNSVNNKEL
+                     ELERDQTNVFVKHLPYEFNDEDLENLFSKYGKVLSSKVMIDPKGNSYGYGFVRFSSPQ
+                     ESAAAIEELDGYQYQNKKLLCRLSNLYTNLNSKYPSNNLFIKPLPYDVTDDQLRKLFE
+                     PFGKIIECKVMLDHNGQSKFAGFVRFSSELDASKAIDAMNGVRINKDSGYPLVVKYAD
+                     TEQQKISRKQRKMQTIYQEKIIAPPIFPPQFLQPTVLPNNNNNNNNNNNNNNNNNNNN
+                     NNNNNNNNNKIANIVGIDQLDKLDHHTLLQQQHQILIDHSHQQQQEQQEQQEQQHILI
+                     DHSQQHPHLINNQNYYTNYMEYMYLSYGDYPNPNHHHHHQYYTTQQIYHQPIYYPTAN
+                     YYTDIHHQIHPTQHIQPQQPQQLLQSQQLQSQQLQPQQLQQQLQQQQQQQQQLQQQNL
+                     NIEIPNQSIRTSGGINKNNSKKKKKKHQQVQSQTSQNSIQIASSSTPLNTSSSSTITS
+                     FGSPPNTSIPSPTSDSISPLPYNKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+                     NNYNNNNVIINTQQTTPNKRNRSEKIKNKNCNINEVNKNFSKLNIDNNNNNNNNNNNN
+                     NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLTTTTTTTTTTNTTNL
+                     TNLESLNPLSASSSSITSNSGGGKHTNDTNLFVFHLPPFVDDSYLFQLFSQFGKLQSV
+                     RVITDKDTGENKGYGFVKFYQTDEALKCQKEMNGFRIGSKFLKVKLKNEKESMNSGKS
+                     HHQHQNQNKNQNEQHLEEEEEEQTFNLPENNIDGNESNQEIVGSGNYT"
+ORIGIN      
+        1 atgcaaatgg atgaaagtga attattagat aaaagtccaa atccatcttc ttcgccacaa
+       61 tcattatcat caccaaaaaa agtattttct ccaagtgaaa aaccatacga tactcatgaa
+      121 ttaataatta ataatgaaca acaaccacaa gaagaaataa atcaacaaca aaatgaaaat
+      181 caatctctac aaataaataa taataataat aataataata ataataataa taataataat
+      241 aataataata ataataataa taataataat aataataata ataatagtgt taataataaa
+      301 gaattggaat tagaaagaga tcaaacaaat gtttttgtaa aacatttacc atatgaattt
+      361 aatgatgaag atttagagaa tttattttca aaatatggaa aagttttaag ttccaaagta
+      421 atgattgatc caaaaggaaa ttcatatgga tatggatttg ttagattttc aagtccacaa
+      481 gaatctgccg ccgcaattga agaattggat ggttaccaat accaaaataa aaaattacta
+      541 tgtagattat ccaatcttta tacaaattta aatagtaaat acccatcaaa taatttattt
+      601 attaaaccac ttccatatga tgtaacagat gatcaattaa ggaaattatt tgaaccattt
+      661 ggtaaaatta ttgaatgtaa agtaatgttg gatcataatg gacaaagtaa atttgcagga
+      721 tttgttagat tttcaagtga attggatgct tcaaaggcaa tagatgctat gaatggtgtt
+      781 aggattaata aagatagtgg ttatccatta gtagtaaaat acgccgatac tgaacaacaa
+      841 aaaataagta gaaagcaaag gaaaatgcaa actatatatc aagaaaaaat aatagcacca
+      901 ccaatatttc caccacaatt tttacaacct acagttttac caaataataa taataataat
+      961 aataataata ataataataa taataataat aataataata ataataataa taataataat
+     1021 aataataata aaatcgcaaa tatagttggt attgatcagc tcgataaact ggatcatcat
+     1081 actcttctcc aacaacagca tcaaatttta atcgaccatt cccatcaaca gcaacaagaa
+     1141 caacaagaac aacaagaaca acaacatatt ctaatagacc attcccaaca acatccacat
+     1201 ttaattaata accaaaatta ttatacaaat tatatggaat atatgtattt atcatatgga
+     1261 gattacccaa acccgaatca tcatcatcat catcaatact atacaactca acaaatatat
+     1321 catcaaccaa tttattatcc cactgcaaat tattatactg atattcatca ccaaattcat
+     1381 ccaactcaac atattcaacc tcaacaaccc caacaactcc tacaatcaca acaattgcaa
+     1441 tcacaacaac tgcaaccaca acaacttcaa caacaactgc aacagcagca gcaacaacaa
+     1501 caacaactac aacaacaaaa tttgaatata gaaattccaa atcaatctat tagaacaagt
+     1561 ggtggaataa ataaaaataa ttcaaaaaaa aagaaaaaga aacatcaaca agtacaatca
+     1621 caaacttcac aaaattcaat ccaaattgcg tcatcgagca ctcctttaaa tacatcatct
+     1681 tcttcaacta tcacatcatt tggttcacct ccaaatactt caataccctc accaacctct
+     1741 gattctatat caccattacc atataataaa aataataata ataataataa taataataat
+     1801 aataataata ataataataa taataataat aataataata ataataataa taataataat
+     1861 aataataata ataataatta taataataat aatgtaatta taaatacgca acaaacaaca
+     1921 ccaaataaaa ggaatagaag tgaaaaaatt aaaaataaaa attgtaatat aaacgaagta
+     1981 aataaaaact tttccaaact aaatattgat aataataata acaataataa taataataat
+     2041 aataataata ataataataa taataataat aataataata ataataataa taataataat
+     2101 aataataata ataataataa taataataat aataataata ataataataa taataataat
+     2161 aataataata atttgactac aacaacaaca actaccacaa cgacaaatac aacaaattta
+     2221 acaaatttag aaagtttaaa tccattatcg gcatcatcat catcaataac aagtaatagt
+     2281 ggtggaggta aacatacaaa tgatacgaat ttatttgtat ttcatttacc accatttgta
+     2341 gacgactctt atttatttca gttattttct caatttggta aactacaatc agttagagtt
+     2401 atcaccgata aagatactgg cgaaaataaa ggttatggat ttgtaaaatt ttatcaaact
+     2461 gatgaagctt taaaatgcca aaaagaaatg aatggattta gaattggttc aaagttccta
+     2521 aaagtcaaat taaagaatga aaaagaaagt atgaattctg gaaaatctca ccaccagcac
+     2581 caaaaccaaa acaaaaacca aaatgaacaa catttagaag aggaagaaga agaacaaact
+     2641 ttcaatttac ctgaaaataa tattgatgga aatgaaagta atcaagaaat tgttggatct
+     2701 ggaaattata cttga
+//

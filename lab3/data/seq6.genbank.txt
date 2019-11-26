@@ -1,0 +1,100 @@
+LOCUS       XM_013499304            2082 bp    mRNA    linear   INV 14-AUG-2015
+DEFINITION  Eimeria mitis RRM domain-containing protein, putative partial mRNA.
+ACCESSION   XM_013499304
+VERSION     XM_013499304.1
+DBLINK      BioProject: PRJNA263398
+KEYWORDS    RefSeq.
+SOURCE      Eimeria mitis
+  ORGANISM  Eimeria mitis
+            Eukaryota; Alveolata; Apicomplexa; Conoidasida; Coccidia;
+            Eucoccidiorida; Eimeriorina; Eimeriidae; Eimeria.
+REFERENCE   1
+  AUTHORS   Reid,A.J., Blake,D., Billington,K., Browne,H., Dunn,M., Hung,S.,
+            Kawahara,F., Miranda-Saavedra,D., Mourier,T., Nagra,H., Otto,T.D.,
+            Rawlings,N., Sanchez,A., Sanders,M., Subramaniam,C., Tay,Y.,
+            Dear,P., Doerig,C., Gruber,A., Parkinson,J., Shirley,M., Wan,K.L.,
+            Berriman,M., Tomley,F. and Pain,A.
+  TITLE     Genomic analysis of the causative agents of coccidiosis in chickens
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2082)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2082)
+  AUTHORS   Aslett,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2013) Pathogen Sequencing Unit, Wellcome Trust
+            Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge,
+            Cambridgeshire CB10 1SA, UNITED KINGDOM
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_013572525).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..2082
+                     /organism="Eimeria mitis"
+                     /mol_type="mRNA"
+                     /strain="Houghton"
+                     /db_xref="taxon:44415"
+                     /chromosome="Unknown"
+                     /note="Emh_scaff42"
+     gene            <1..>2082
+                     /locus_tag="EMH_0042680"
+                     /db_xref="GeneID:25378988"
+     CDS             1..2082
+                     /locus_tag="EMH_0042680"
+                     /codon_start=1
+                     /product="RRM domain-containing protein, putative"
+                     /protein_id="XP_013354758.1"
+                     /db_xref="GeneID:25378988"
+                     /translation="MATEEPHAVPTAGPQDGVPDLQSSDSASTAEAVAAAAAAAAAAA
+                     QLAVGTSSTDGGYQAHSFTTLFLIDFSFLRAGNITEVVEIAWVVFDVATRQSLEEVSL
+                     LVRPEQLLAPAEVLTKLGVTQEQLFAASTLSEVIQKLDTAVFQRSQDGVNPAMLCVYE
+                     PENLKDFRACAAARQVTLYPHFAQAVILKRVIQQYLTVKGDDLKSLSTAAGALHLAAP
+                     EGREDGLAACRCICSILFLLLSKGLVLLKEHSVNVEDPSALEALKPLVAPAANGFSGV
+                     GTHIRLRGLPWDVTEDAIVRFLKPVVDVTELDVCVCVGLNKRVTGEAYVNVHSTDMRD
+                     VAVRTLHGRMMGPRWIEVFRSSAEDFERAMQRRVAVMSSGTRDGRDADVKGLNLTVLK
+                     LRGLPWTCTDNDVVNFFQEHGFEIGFDSVVLGVAVDGRMNGIAYVELPDAATADAAKE
+                     KLHRKYLGRRFVEVYPSTREEMHRAKRPGRMVPSEMGVGAMRIQRPARMMGGTAQGPY
+                     SGGYGAGPQPYGAMGGGMASTQAYGGMDGMGGPQGSYASYGAPSHDVYGGYGGAVQQA
+                     AYSQASPQVAQPAPAQDVGPVPAGWGYTVLRLRGMPFNANEQHIVQFFQGFHMTAILP
+                     STIPIDGRPSGEAYVQFSDVNETWRALQTRNGARMDRRYIELFPASKQEMTFAAQGGD
+                     PRAFRERDRTF"
+ORIGIN      
+        1 atggctacgg aagagcccca tgcggttccc accgcggggc ctcaagacgg cgttccggat
+       61 cttcaaagca gcgactcggc aagtactgca gaagcagttg ctgcagcagc agctgctgca
+      121 gctgctgctg ctcagctagc ggtagggacg agctcaactg acgggggata tcaagctcat
+      181 tcgtttacga ctcttttttt gatagacttc tccttcctga gggcgggcaa catcacggag
+      241 gttgttgaaa tcgcgtgggt ggtgtttgat gtggcgaccc gacagtccct tgaggaagtt
+      301 tctcttctcg tccggcccga gcagctcttg gcgccggctg aggttctcac gaagcttggg
+      361 gtcacgcagg agcagctctt tgccgcatcg actctgagtg aagtcatcca gaagctcgac
+      421 acggcagtct tccagcgaag ccaagacggc gtgaatcccg caatgctctg tgtctatgag
+      481 ccggagaatt tgaaggattt ccgcgcatgt gcagctgctc gccaagtgac tctttatccc
+      541 cacttcgcgc aggctgtgat cttgaaacgc gtaatccagc aatatctgac agttaagggg
+      601 gatgatctga agagcttaag cacggctgcg ggagctctgc acttggcagc accagaaggg
+      661 cgggaggatg gcctggctgc gtgccggtgt atctgcagca ttttgttttt gctgctctcg
+      721 aagggtctcg tgctgctcaa ggaacattcc gtcaacgtgg aagacccatc tgccttagag
+      781 gccctcaagc cgctcgtggc gccggcagca aatggatttt ctggcgttgg aacacatatt
+      841 cgcctgagag gacttccttg ggacgtgact gaagatgcca tcgtccggtt cttgaagcca
+      901 gttgttgacg ttacagagtt ggatgtttgt gtctgcgttg gccttaacaa acgtgtgaca
+      961 ggcgaggcct atgtgaacgt tcactcgaca gacatgcggg acgtggcagt tcggacactt
+     1021 catggtcgca tgatgggtcc acggtggata gaggtgttcc ggtctagcgc ggaagacttt
+     1081 gaaagggcca tgcaacgaag ggtagctgtg atgagctcgg gcacgaggga cggccgggac
+     1141 gctgatgtta agggcctgaa cttaaccgtg ctgaaattac ggggactgcc gtggacttgc
+     1201 actgacaacg acgtcgtcaa cttctttcaa gagcatgggt tcgagattgg gtttgactcg
+     1261 gttgtcttgg gggttgcggt ggacggaagg atgaacggga tcgcgtacgt cgagcttccc
+     1321 gacgctgcga ctgcagacgc agcgaaggag aaattacaca ggaaatacct tggtcggagg
+     1381 tttgttgagg tgtatccgtc tactcgagag gaaatgcata gagcgaaacg gccaggcaga
+     1441 atggtgccat ctgagatggg tgtgggagct atgcgcattc aacgcccagc ccgcatgatg
+     1501 ggcggaactg cccaaggacc ctacagcggt gggtacggag caggacccca gccatatgga
+     1561 gccatggggg gaggtatggc ttccacccaa gcttacggag gcatggatgg tatgggcggt
+     1621 ccacaaggaa gctacgcaag ctacggcgcc cccagccatg atgtatacgg agggtatggg
+     1681 ggcgcagttc agcaagccgc ctatagccaa gcatctccac aagttgcgca gccggcgcct
+     1741 gcacaggatg taggccccgt ccctgctgga tggggttaca ctgtcttgag actccgggga
+     1801 atgcccttca atgctaatga acaacatatt gtgcaatttt tccaaggctt ccatatgacg
+     1861 gcaattctcc cgtctacgat cccgatagat ggccggcctt ctggagaggc ttatgtccag
+     1921 ttttctgacg ttaatgagac ctggagagcc ttacaaacga ggaatggcgc tcgaatggac
+     1981 aggagataca ttgagctctt ccctgcaagc aaacaagaaa tgacatttgc agcacaagga
+     2041 ggagacccgc gagcgtttcg ggagcgggac agaacctttt ga
+//

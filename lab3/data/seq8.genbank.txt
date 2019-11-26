@@ -1,0 +1,80 @@
+LOCUS       XM_011130266            1191 bp    mRNA    linear   INV 21-JAN-2015
+DEFINITION  Gregarina niphandrodes RNA recognition motif (A.K.A RRM, RBD, or
+            RNP domain) protein partial mRNA.
+ACCESSION   XM_011130266
+VERSION     XM_011130266.1
+DBLINK      BioProject: PRJNA259233
+            BioSample: SAMN01120375
+KEYWORDS    RefSeq.
+SOURCE      Gregarina niphandrodes
+  ORGANISM  Gregarina niphandrodes
+            Eukaryota; Alveolata; Apicomplexa; Conoidasida; Gregarinasina;
+            Eugregarinorida; Gregarinidae; Gregarina.
+REFERENCE   1  (bases 1 to 1191)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   2  (bases 1 to 1191)
+  AUTHORS   Omoto,C.K., Sibley,D., Venepally,P., Hadjithomas,M.,
+            Karamycheva,S., Brunk,B., Roos,D., Caler,E. and Lorenzi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-DEC-2013) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+  REMARK    Annotation and assembly updated by submitter
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_011645773).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..1191
+                     /organism="Gregarina niphandrodes"
+                     /mol_type="mRNA"
+                     /isolation_source="wild beetles"
+                     /host="Tenebrio molitor"
+                     /db_xref="taxon:110365"
+                     /chromosome="Unknown"
+                     /dev_stage="cysts"
+     gene            <1..>1191
+                     /locus_tag="GNI_004740"
+                     /db_xref="GeneID:22910430"
+     CDS             1..1191
+                     /locus_tag="GNI_004740"
+                     /inference="protein motif:PFAM:PF00076"
+                     /inference="protein motif:PFAM:PF14259"
+                     /note="encoded by transcript GNI_004740"
+                     /codon_start=1
+                     /product="RNA recognition motif (A.K.A RRM, RBD, or RNP
+                     domain) protein"
+                     /protein_id="XP_011128568.1"
+                     /db_xref="GeneID:22910430"
+                     /translation="MAKDEETMTSSAMADGIIAAKSKKSKKSDKKDKKDKKDKKDKKS
+                     RKSEEATEDALSQSPSTTAEDSPAVVEQAAAEQPKKDKKEKKEKKDKKEKKEATAAAS
+                     SDEEVESRSESKTESKKDKKDKKDKKDKKDKSEKKDKSEKKDKKDKSEKKEKKDVEEA
+                     EAEVSPMAVEEDEEPIIRKRAADASSSFNASPPKRGRGDTSIVFVRGLMFGITAEQVS
+                     AHFAGCGGVERVRFTASDHGNCFVTFDSADGASAALGLDGQTGPGGTDRYLQVREHTF
+                     GRWYVPEAVSVETNADYDQVLREGMAHYGTVTDVQYFGDSALVTFETEDQADAAIEGG
+                     RMDMGDYQAFVKLATTKNNYGIEDQRGFQDGGRGGRGGRGDRGGRGGRGGRGGRGGRG
+                     GNRY"
+ORIGIN      
+        1 atggcgaagg acgaggagac tatgacaagc tctgccatgg ctgacggcat cattgccgcc
+       61 aagtccaaga agtccaagaa gtccgacaag aaggacaaga aggacaagaa agacaaaaag
+      121 gacaagaaga gcaggaagtc ggaggaagcc accgaagacg ctttgtctca gtcaccctcc
+      181 accaccgctg aagactcacc agccgtcgta gagcaggcgg ctgccgagca gcccaagaag
+      241 gacaagaagg agaagaagga gaagaaggac aagaaggaga agaaggaggc caccgcggct
+      301 gcttcgtccg atgaggaagt cgaatctagg tctgagtcta agactgagtc taagaaggac
+      361 aagaaggaca agaaggacaa gaaggacaag aaggacaagt cggagaagaa ggacaagtcg
+      421 gagaagaagg acaagaagga caagtcggag aagaaggaga agaaggatgt tgaggaggcg
+      481 gaggcggagg tgagtccgat ggcggtggag gaggacgagg agccgattat tcgaaagcgc
+      541 gcggccgacg cgagcagcag cttcaatgcc tcgccgccga agcgtggccg tggcgacacg
+      601 agcatcgtgt ttgtgcgagg gctgatgttc ggaattactg cggagcaggt gagtgcgcac
+      661 tttgcaggat gcggtggagt tgagcgtgtg cggttcacgg ctagcgacca cggcaactgt
+      721 ttcgtgacgt ttgattcggc agacggcgca agcgcggctc ttggactgga tggccagacg
+      781 ggtcctggtg gtacggaccg ttatttacag gtgcgggaac acacctttgg tcggtggtat
+      841 gtgcccgagg ccgtcagcgt tgagactaac gcagactatg accaggtcct gagggagggt
+      901 atggcacact acggcaccgt cactgacgtc cagtatttcg gcgactccgc cctagtcacc
+      961 ttcgagactg aggaccaagc agatgctgcc atcgaaggag gccgcatgga catgggcgac
+     1021 taccaagcct ttgttaaact cgccaccacc aagaacaact acggaattga agatcaacga
+     1081 ggcttccaag acggcggtcg aggcggtcga ggcggtcgtg gtgatcgtgg cggtcgcggc
+     1141 ggtcgcggcg gtcgcggtgg acgcggtgga cgcggaggca accggtacta a
+//

@@ -1,0 +1,103 @@
+LOCUS       XM_012793813             630 bp    mRNA    linear   INV 13-JUN-2017
+DEFINITION  Babesia microti strain RI RNA recognition motif. (a.k.a. RRM RBD or
+            RNP domain) partial mRNA.
+ACCESSION   XM_012793813
+VERSION     XM_012793813.1
+DBLINK      BioProject: PRJEA172341
+            BioSample: SAMEA3139016
+KEYWORDS    RefSeq.
+SOURCE      Babesia microti strain RI
+  ORGANISM  Babesia microti strain RI
+            Eukaryota; Alveolata; Apicomplexa; Aconoidasida; Piroplasmida;
+            Babesiidae; Babesia.
+REFERENCE   1
+  AUTHORS   Silva,J.C., Cornillot,E., McCracken,C., Usmani-Brown,S.,
+            Dwivedi,A., Ifeonu,O.O., Crabtree,J., Gotia,H.T., Virji,A.Z.,
+            Reynes,C., Colinge,J., Kumar,V., Lawres,L., Pazzi,J.E., Pablo,J.V.,
+            Hung,C., Brancato,J., Kumari,P., Orvis,J., Tretina,K., Chibucos,M.,
+            Ott,S., Sadzewicz,L., Sengamalay,N., Shetty,A.C., Su,Q., Tallon,L.,
+            Fraser,C.M., Frutos,R., Molina,D.M., Krause,P.J. and Ben Mamoun,C.
+  TITLE     Genome-wide diversity and gene expression profiling of Babesia
+            microti isolates identify polymorphic genes that mediate
+            host-pathogen interactions
+  JOURNAL   Sci Rep 6, 35284 (2016)
+   PUBMED   27752055
+  REMARK    Publication Status: Online-Only
+REFERENCE   2
+  AUTHORS   Cornillot,E., Dassouli,A., Garg,A., Pachikara,N., Randazzo,S.,
+            Depoix,D., Carcy,B., Delbecq,S., Frutos,R., Silva,J.C., Sutton,R.,
+            Krause,P.J. and Mamoun,C.B.
+  TITLE     Whole genome mapping and re-organization of the nuclear and
+            mitochondrial genomes of Babesia microti isolates
+  JOURNAL   PLoS ONE 8 (9), E72657 (2013)
+   PUBMED   24023759
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 630)
+  AUTHORS   Cornillot,E., Hadj-Kaddour,K., Dassouli,A., Noel,B., Ranwez,V.,
+            Vacherie,B., Augagneur,Y., Bres,V., Duclos,A., Randazzo,S.,
+            Carcy,B., Debierre-Grockiego,F., Delbecq,S., Moubri-Menage,K.,
+            Shams-Eldin,H., Usmani-Brown,S., Bringaud,F., Wincker,P.,
+            Vivares,C.P., Schwarz,R.T., Schetters,T.P., Krause,P.J.,
+            Gorenflot,A., Berry,V., Barbe,V. and Ben Mamoun,C.
+  TITLE     Sequencing of the smallest Apicomplexan genome from the human
+            pathogen Babesia microti
+  JOURNAL   Nucleic Acids Res. 40 (18), 9102-9114 (2012)
+   PUBMED   22833609
+REFERENCE   4  (bases 1 to 630)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   5  (bases 1 to 630)
+  AUTHORS   Genoscope -,C.E.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-FEB-2012) Genoscope - Centre National de Sequencage :
+            BP 191 91006 EVRY cedex - FRANCE (E-mail : seqref@genoscope.cns.fr
+            - Web : www.genoscope.cns.fr)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NC_027207).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..630
+                     /organism="Babesia microti strain RI"
+                     /mol_type="mRNA"
+                     /strain="RI"
+                     /db_xref="taxon:1133968"
+                     /chromosome="III"
+     gene            <1..>630
+                     /locus_tag="BMR1_03g03280"
+                     /old_locus_tag="BBM_III03280"
+                     /db_xref="GeneID:24425302"
+     CDS             1..630
+                     /locus_tag="BMR1_03g03280"
+                     /old_locus_tag="BBM_III03280"
+                     /note="overlaps_old_locusTagID:BBM_III03280"
+                     /codon_start=1
+                     /product="RNA recognition motif. (a.k.a. RRM RBD or RNP
+                     domain)"
+                     /protein_id="XP_012649267.1"
+                     /db_xref="EnsemblGenomes-Gn:BmR1_III03280"
+                     /db_xref="EnsemblGenomes-Tr:CTQ41256"
+                     /db_xref="GeneID:24425302"
+                     /db_xref="GOA:A0A0K3AUI5"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="InterPro:IPR012677"
+                     /db_xref="UniProtKB/TrEMBL:A0A0K3AUI5"
+                     /translation="MSSNQKCRVYVGNLSWKVRWQDLKDHLKQAGKVLRADIIEDYEG
+                     RSKGCGLVEFSTPEEAMTAIKELNDTMLMDRRIFVREDREENGTYSQRRDKDFRSKQD
+                     NGYDRNNSRDGYSKGNYSNDGVCVYVTNLQWRTPWHSLKDLFKTCGDVIRVDVLTYDD
+                     GRSKGVARVIFGDEASARKAISTYNDYLVDGRRINVRFDNERPPPNSST"
+ORIGIN      
+        1 atgagctcaa atcaaaaatg tcgtgtatac gtcggcaacc tttcgtggaa ggttagatgg
+       61 caagacctta aggaccacct taaacaggct gggaaggttt tacgggctga tataatcgag
+      121 gactatgagg gaaggtctaa gggctgtggt cttgtcgaat tttccactcc tgaagaggct
+      181 atgacagcaa ttaaagagct gaatgataca atgttgatgg atcgacgtat atttgttagg
+      241 gaggataggg aagagaatgg cacttattct cagaggaggg ataaggattt taggtctaag
+      301 caggataacg gttatgatag aaacaattca cgcgatggat attcgaaggg aaattacagt
+      361 aacgatggag tgtgtgttta cgttacaaat ctccaatgga gaacaccatg gcatagtcta
+      421 aaggacctgt tcaaaacctg cggtgatgtc atcagggttg atgtattgac atatgatgac
+      481 ggcaggtcaa aaggagtggc tagagttatt tttggagatg aagcttcagc tagaaaagca
+      541 atttctacgt acaacgatta ccttgtagat gggaggagga taaacgtgag atttgacaac
+      601 gagaggcccc ctccaaacag tagcacctaa
+//

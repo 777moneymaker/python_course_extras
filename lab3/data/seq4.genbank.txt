@@ -1,0 +1,155 @@
+LOCUS       NM_001013207            2699 bp    mRNA    linear   ROD 03-OCT-2017
+DEFINITION  Rattus norvegicus RNA binding motif protein 39 (Rbm39), mRNA.
+ACCESSION   NM_001013207 XM_342557
+VERSION     NM_001013207.2
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 2699)
+  AUTHORS   Uehara T, Minoshima Y, Sagane K, Sugi NH, Mitsuhashi KO, Yamamoto
+            N, Kamiyama H, Takahashi K, Kotake Y, Uesugi M, Yokoi A, Inoue A,
+            Yoshida T, Mabuchi M, Tanaka A and Owa T.
+  TITLE     Selective degradation of splicing factor CAPERalpha by anticancer
+            sulfonamides
+  JOURNAL   Nat. Chem. Biol. 13 (6), 675-680 (2017)
+   PUBMED   28437394
+REFERENCE   2  (bases 1 to 2699)
+  AUTHORS   Baltz AG, Munschauer M, Schwanhausser B, Vasile A, Murakawa Y,
+            Schueler M, Youngs N, Penfold-Brown D, Drew K, Milek M, Wyler E,
+            Bonneau R, Selbach M, Dieterich C and Landthaler M.
+  TITLE     The mRNA-bound proteome and its global occupancy profile on
+            protein-coding transcripts
+  JOURNAL   Mol. Cell 46 (5), 674-690 (2012)
+   PUBMED   22681889
+REFERENCE   3  (bases 1 to 2699)
+  AUTHORS   Castello A, Fischer B, Eichelbaum K, Horos R, Beckmann BM, Strein
+            C, Davey NE, Humphreys DT, Preiss T, Steinmetz LM, Krijgsveld J and
+            Hentze MW.
+  TITLE     Insights into RNA biology from an atlas of mammalian mRNA-binding
+            proteins
+  JOURNAL   Cell 149 (6), 1393-1406 (2012)
+   PUBMED   22658674
+REFERENCE   4  (bases 1 to 2699)
+  AUTHORS   Gao G and Goff SP.
+  TITLE     Isolation of suppressor genes that restore retrovirus
+            susceptibility to a virus-resistant cell line
+  JOURNAL   Retrovirology 1, 30 (2004)
+   PUBMED   15453907
+  REMARK    Publication Status: Online-Only
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            BC078917.1 and BC091394.1.
+            On Nov 28, 2013 this sequence version replaced NM_001013207.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC091394.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMD00052296, SAMD00052297
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-11                BC078917.1         1-11
+            12-1990             BC091394.1         1-1979
+            1991-2699           BC078917.1         2082-2790
+FEATURES             Location/Qualifiers
+     source          1..2699
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /chromosome="3"
+                     /map="3q42"
+     gene            1..2699
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /note="RNA binding motif protein 39"
+                     /db_xref="GeneID:362251"
+                     /db_xref="RGD:1310071"
+     misc_feature    99..101
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /note="upstream in-frame stop codon"
+     STS             177..307
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /standard_name="G64285"
+                     /db_xref="UniSTS:158667"
+     CDS             264..1838
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /note="RNA-binding region-containing 2; RNA-binding region
+                     (RNP1, RRM) containing 2"
+                     /codon_start=1
+                     /product="RNA-binding protein 39"
+                     /protein_id="NP_001013225.1"
+                     /db_xref="GeneID:362251"
+                     /db_xref="RGD:1310071"
+                     /translation="MADDIDIEAMLEAPYKKDENKLNSANGHEERSKKRKKSKSRSRS
+                     HERKRSKSKERKRSRDRERKKSKSRERKRSRSKERRRSRSRSRDRRFRGRYRSPYSGP
+                     KFNSAIRGKIGLPHSIKLSRRRSRSKSPFRKDKSPVREPIDNLTPEERDARTVFCMQL
+                     AARIRPRDLEEFFSTVGKVRDVRMISDRNSRRSKGIAYVEFVDVSSVPLAIGLTGQRV
+                     LGVPIIVQASQAEKNRAAAMANNLQKGSAGPMRLYVGSLHFNITEDMLRGIFEPFGRI
+                     ESIQLMMDSETGRSKGYGFITFSDSECAKKALEQLNGFELAGRPMKVGHVTERTDASS
+                     ASSFLDSDELERTGIDLGTTGRLQLMARLAEGTGLQIPPAAQQALQMSGSLAFGAVAD
+                     LQTRLSQQTEASALAAAASVQPLATQCFQLSNMFNPQTEEEVGWDTEIKDDVIEECNK
+                     HGGVIHIYVDKNSAQGNVYVKCPSIAAAIAAVNALHGRWFAGKMITAAYVPLPTYHNL
+                     FPDSMTATQLLVPSRR"
+     STS             927..1508
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /standard_name="Rbm39"
+                     /db_xref="UniSTS:479249"
+     STS             2437..2653
+                     /gene="Rbm39"
+                     /gene_synonym="Rnp1; Rnpc2; Rrm"
+                     /standard_name="RH129887"
+                     /db_xref="UniSTS:213175"
+ORIGIN      
+        1 cagggagcta gccgacgctg tcgcaggggt ggatcctgag ctgccgaagc cgctgccctg
+       61 ctctccgtcg cgggctcctt taatcccatt gtttctttta gattcgtttg ggcctagacg
+      121 ccctcggggc ccgatattcg ggttgggcgg taccgcggcc tgggcctagt gacttaacag
+      181 tagcaacagc agcggcggcg gcggcagccg acttcccgat tcgagcacag gcgcgcgaaa
+      241 atccgcacag gcgagtagag aaaatggcag acgatattga tattgaagca atgcttgagg
+      301 ccccttacaa gaaggatgag aacaagttga acagtgctaa cggccatgaa gaacgtagca
+      361 aaaagagaaa aaaaagcaag agcagaagcc gtagtcatga gagaaaaaga agcaaaagta
+      421 aagaacggaa acgaagtaga gatagagaaa ggaaaaagag caaaagtcga gagaggaaac
+      481 gaagtagaag caaagaaagg agacgaagcc gctcacgaag tcgagataga agattccgag
+      541 gccgctacag aagtccctac tccggaccaa aatttaacag tgccatccga ggaaagattg
+      601 ggttgcctca tagcatcaaa ttaagcagaa gacgttcccg aagcaaaagt ccattcagga
+      661 aagacaagag ccctgtgagg gaacctattg ataatctcac tcctgaggaa agggatgcaa
+      721 ggacagtttt ctgcatgcag ctggcagcaa gaattcgacc aagagatttg gaagaatttt
+      781 tctctacagt aggaaaggtt cgagatgtga gaatgatttc tgatagaaat tcaagacgtt
+      841 ccaaaggaat cgcctatgtg gagtttgttg atgtcagttc agtgcctcta gcaattggat
+      901 taactggtca acgagtttta ggagtgccaa tcatagtcca ggcatcacag gcagaaaaaa
+      961 acagagctgc tgcaatggcg aacaatttac aaaagggaag tgctggacct atgaggctct
+     1021 atgtgggatc attacacttt aacataactg aagatatgct tcggggaatc tttgaacctt
+     1081 ttggaaggat tgaaagtatt cagctcatga tggatagtga aaccggtcga tctaagggat
+     1141 atggattcat taccttttct gactcagaat gtgccaaaaa ggctttggaa cagcttaatg
+     1201 gattcgagtt agcagggaga ccaatgaaag ttggtcatgt tactgaacga actgatgcat
+     1261 ctagcgctag ttcatttttg gacagtgatg aattagaaag gactggaatt gacttgggaa
+     1321 caacaggtcg tctccagttg atggcaagac ttgcagaggg taccggtttg cagattccac
+     1381 cagcagcaca acaagcttta caaatgagtg gctctctggc atttggtgct gtggcagatt
+     1441 tgcaaacacg actttcccaa cagactgaag cctcagcttt agctgcagct gcgtctgttc
+     1501 aacctcttgc aacacagtgt ttccaacttt ctaacatgtt taatcctcaa acagaagaag
+     1561 aagttggatg ggatacagag attaaagatg atgtcattga agaatgtaat aaacatggtg
+     1621 gagtcattca tatttatgtt gacaaaaatt cagctcaggg caatgtgtat gtgaagtgcc
+     1681 catcgattgc tgcggctatt gctgctgtca atgcgttgca tggcaggtgg tttgctggta
+     1741 aaatgataac agcagcgtat gtacctcttc caacatacca caacctcttt cctgattcca
+     1801 tgacagcaac acaactactg gttccaagta gacgatgaag gagatgcagt ccctgatgta
+     1861 tatagctttt ttttctcttg agaattcatc ttgagttatc ttttatttag ataaaaaata
+     1921 aagaggcaag ggtctactgt catttgtata caactcctgt tatctggaaa aataaaaatg
+     1981 ttaacaggaa tgcagtgtgc tcattctccc taactagcaa atcctacttt atgcaaaact
+     2041 gttctcttgt tctgctgttt taaatgtcca tgtagaaaat tacattaagg atctatagaa
+     2101 tagctctagg ggaacaaatg tgctttctgt acaaaggcag acaggtaatg ttttaatgtt
+     2161 tcagaaactt aactttttac acagcagtta catttcacat tcatgtattc ggctcatggt
+     2221 tcagcaaagg tttccagaat acacttttgg agtgtgaaaa gtctaagttg ctaaatggct
+     2281 gcttagcatt tgaccttgac catttggaaa gtgggggatt tcaaaatatt tcttgatggt
+     2341 aaatttttca attactgtat ctgtaaaagt ttctttgtaa atactatgtg ttttagtgtg
+     2401 tcttaagatt ccaaacaaaa tgatccctgc atttcctcaa ggtggttgat gtaacagatt
+     2461 gagtaaaaca gtcttgggca agagatagga aatgtggaaa taggttttgt ctggttgcat
+     2521 ataatctttg ctctttttaa gctctgtgag ctctgaaata tatttttggg ttacttcagt
+     2581 gtgtttgaca agacagcttg atatttctat caaacaaatg actttcatat tgcaacaatc
+     2641 tttgtaagaa ccactcaaat aaaattctct gaaaaagaaa aaaaaaaaaa aaaaaaaaa
+//

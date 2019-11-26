@@ -1,0 +1,122 @@
+LOCUS       NM_171360               2288 bp    mRNA    linear   INV 18-OCT-2019
+DEFINITION  Caenorhabditis elegans RRM domain-containing protein (hrpf-2),
+            mRNA.
+ACCESSION   NM_171360
+VERSION     NM_171360.4
+DBLINK      BioProject: PRJNA158
+            BioSample: SAMEA3138177
+KEYWORDS    RefSeq.
+SOURCE      Caenorhabditis elegans
+  ORGANISM  Caenorhabditis elegans
+            Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+            Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+            Caenorhabditis.
+REFERENCE   1  (bases 1 to 2288)
+  AUTHORS   Sulson,J.E. and Waterston,R.
+  CONSRTM   Caenorhabditis elegans Sequencing Consortium
+  TITLE     Genome sequence of the nematode C. elegans: a platform for
+            investigating biology
+  JOURNAL   Science 282 (5396), 2012-2018 (1998)
+   PUBMED   9851916
+  REMARK    Erratum:[Science 1999 Jan 1;283(5398):35]
+REFERENCE   2  (bases 1 to 2288)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2288)
+  AUTHORS   WormBase.
+  CONSRTM   WormBase Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2019) WormBase Group, European Bioinformatics
+            Institute, Cambridge, CB10 1SA, UK. Email: help@wormbase.org
+REFERENCE   4  (bases 1 to 2288)
+  AUTHORS   Sulson,J.E. and Waterston,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2003) Nematode Sequencing Project: Sanger
+            Institute, Hinxton, Cambridge CB10 1SA, UK and The Genome Institute
+            at Washington University, St. Louis, MO 63110, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by WormBase. This
+            record is derived from an annotated genomic sequence (NC_003282).
+            On Sep 4, 2019 this sequence version replaced NM_171360.3.
+FEATURES             Location/Qualifiers
+     source          1..2288
+                     /organism="Caenorhabditis elegans"
+                     /mol_type="mRNA"
+                     /strain="Bristol N2"
+                     /db_xref="taxon:6239"
+                     /chromosome="IV"
+     gene            1..2288
+                     /gene="hrpf-2"
+                     /locus_tag="CELE_Y73B6BL.33"
+                     /db_xref="GeneID:177398"
+                     /db_xref="WormBase:WBGene00022253"
+     CDS             2..1834
+                     /gene="hrpf-2"
+                     /locus_tag="CELE_Y73B6BL.33"
+                     /standard_name="Y73B6BL.33a"
+                     /note="Confirmed by transcript evidence"
+                     /codon_start=1
+                     /product="RRM domain-containing protein"
+                     /protein_id="NP_741422.1"
+                     /db_xref="EnsemblGenomes-Gn:WBGene00022253"
+                     /db_xref="EnsemblGenomes-Tr:Y73B6BL.33a"
+                     /db_xref="GeneID:177398"
+                     /db_xref="GOA:Q8MXR2"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="InterPro:IPR012677"
+                     /db_xref="InterPro:IPR035979"
+                     /db_xref="UniProtKB/TrEMBL:Q8MXR2"
+                     /db_xref="WormBase:WBGene00022253"
+                     /translation="MSEQTTQPTTEDQQSAEIAVKEEEIAVKTQSAPADAPDIHQSTI
+                     KEADESMPTKISSGEPPRSQYIRLRGLPFNATEKDIHEFFAGLTIERVKFVCTTGRPN
+                     GEAYVEFKNTEEAGKAMENDRKEISNRYIEVFTVEADEAEFEFRPDPDSNGEVNHVIR
+                     LRGVPWSCKEDDVRKFFEGLEPPPAEIVIGGTGGPRSRPSGEAFVRFTTQDAAEKAMD
+                     YNNRHMGSRYVEVFMSSMVEFNRAKGGGSGEYSASYERTGIRPLMSVDSGYDHGRRGG
+                     GGRYGDSSYDRGYDDYNRGSYGGRRDYGYNGGHDQGGRSDYGRGGDDPLRVYMRGLPY
+                     DADDHAIAAFFSPLRCHSVKIGINETGRPSGDAIAEFDNYNDLQVALSRNNQRMGRRY
+                     VELFDNRGAPGPMRRLLWKETSGTNASAAPAPDPILNGGRRGGGPPQRDSGYRAGPQA
+                     MPPSYRESRDPYGPREPRGYDIEPKYEPRGIPPRSAPIRAPPAAHGRAPDTWGSYGAA
+                     STGPSYDQSSAAGGYAASWDAYYASQAQSAYSAEPASTYPTAAHSAYGSGESYSYGAS
+                     AGGAYDRQREPRDSQPTWAQQQQPSHHSAYGGWGAGAGDHRSGY"
+ORIGIN      
+        1 tatgtcggaa caaacaacac aaccgacaac agaagaccaa cagtcggcag aaatagcagt
+       61 aaaagaagag gaaattgcag tgaaaactca atccgcacct gcagatgctc cagacattca
+      121 tcaatcgaca attaaggaag cagacgaatc aatgccaaca aaaatttctt ctggagaacc
+      181 accaagaagc caatatataa gattgcgtgg gcttccattc aatgctaccg agaaagatat
+      241 tcacgaattt ttcgctgggc tcacgattga acgagtcaaa ttcgtatgca caactggacg
+      301 cccgaatggt gaagcatacg tggagttcaa gaataccgaa gaagctggta aagctatgga
+      361 aaacgataga aaagaaataa gtaaccgata tattgaagtt tttaccgtcg aagcggacga
+      421 agctgagttc gaatttcgtc cagatccaga ttccaatgga gaagttaatc acgttattcg
+      481 attgcgtggt gttccatggt cttgcaaaga agatgatgtt cgtaaatttt tcgaagggct
+      541 agaaccacca ccggcggaaa ttgtaatcgg cgggacgggt gggccgagat cgagaccatc
+      601 cggggaggcg ttcgttcgat ttacgacgca agacgcggcc gagaaggcga tggattacaa
+      661 taacaggcac atgggatcga gatacgttga agtattcatg tcaagtatgg tcgaatttaa
+      721 tcgagcaaaa ggtggaggat cgggagaata ctcggcatct tacgaaagaa ctggaattcg
+      781 cccactgatg tccgtggatt caggatatga ccacggaaga cgaggtggtg gtggaagata
+      841 cggcgacagc agctatgatc gtggttatga tgactacaat cgtggaagtt atggcggacg
+      901 tcgggattat ggatacaatg gtggacacga tcaaggaggt cgcagtgatt atggaagagg
+      961 aggcgatgat ccgctgaggg tgtatatgcg tggtcttcct tatgatgctg atgatcatgc
+     1021 tatcgctgct tttttttctc cacttcgatg ccattcagtc aaaataggaa tcaacgaaac
+     1081 tggtcgtcca tctggagatg ctattgcgga atttgacaat tacaacgatc ttcaagtcgc
+     1141 tctctcgcgt aacaatcaaa gaatgggaag acgatatgtc gaactgtttg ataatcgtgg
+     1201 agcgcctggt ccaatgcgtc gtcttctttg gaaagaaaca agtggcacga atgcatcagc
+     1261 tgctccagcg cctgatccga ttcttaacgg aggaagacgt ggcggagggc caccacaacg
+     1321 agactctggc tacagggcag gtcctcaagc tatgccacca tcatacagag aatcaaggga
+     1381 tccatatggc ccacgggaac cacgaggata cgatatagaa cccaaatatg aaccacgagg
+     1441 catcccacca cgcagtgctc caattcgtgc accaccagct gcgcatggcc gggctcctga
+     1501 tacgtgggga agttatggag cagcatctac tggtccgagt tatgatcaga gcagtgctgc
+     1561 cggaggttat gctgcaagct gggatgctta ttatgcttca caagcacagt ctgcgtattc
+     1621 tgcagaacct gcatccacat atcccacagc tgctcattct gcatatggat caggcgaatc
+     1681 atattcgtat ggagcatctg ctggaggagc ttacgatcgt caaagagaac ctagagactc
+     1741 acagccaaca tgggctcagc aacaacaacc gtctcatcac agtgcttatg gaggatgggg
+     1801 agctggagct ggagatcatc gaagtggata ttaattatct tctttttttt cttttcactt
+     1861 ctgacttcct tttttctgtt cctgccaaaa tcccagttct ttcgattttc cagacaaatg
+     1921 agcattgttc cttataatct agtgtatcac tttacttttt tctctgttct ccgaggtctc
+     1981 ggttatttat tatcttgttc tcatgatttt ccaacgcgaa cgtcttattt tacctctgtt
+     2041 ctgttcaact atcaaaatat catgctttga tcttcctaca caatttttat taattaatag
+     2101 atttctgaat ttgagacttt cattgttttt tttttctgta tcctttttga tatttaatgg
+     2161 ctgttcgccc cgcgttttaa tatgttacaa tttggaaatt cttatttctt tttaattagg
+     2221 aaatgagaca tggataatta tttcacttct tggttgtttc atagaatgtt ggaatgttca
+     2281 attatata
+//

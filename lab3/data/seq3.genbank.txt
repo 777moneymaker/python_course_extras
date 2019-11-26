@@ -1,0 +1,66 @@
+LOCUS       NM_001047041             894 bp    mRNA    linear   INV 25-JUN-2017
+DEFINITION  Bombyx mori bmp-2 protein (Bmp-2), mRNA.
+ACCESSION   NM_001047041
+VERSION     NM_001047041.1
+KEYWORDS    RefSeq.
+SOURCE      Bombyx mori (domestic silkworm)
+  ORGANISM  Bombyx mori
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Holometabola; Lepidoptera; Glossata; Ditrysia;
+            Bombycoidea; Bombycidae; Bombycinae; Bombyx.
+REFERENCE   1  (bases 1 to 894)
+  AUTHORS   Ou J, Deng HM, Zheng SC, Huang LH, Feng QL and Liu L.
+  TITLE     Transcriptomic analysis of developmental features of Bombyx mori
+            wing disc during metamorphosis
+  JOURNAL   BMC Genomics 15, 820 (2014)
+   PUBMED   25261999
+  REMARK    Publication Status: Online-Only
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ534196.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: DQ534196.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMD00016912, SAMD00016913
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..894
+                     /organism="Bombyx mori"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7091"
+     gene            1..894
+                     /gene="Bmp-2"
+                     /gene_synonym="rrm"
+                     /note="bmp-2 protein"
+                     /db_xref="GeneID:733059"
+     CDS             1..894
+                     /gene="Bmp-2"
+                     /gene_synonym="rrm"
+                     /codon_start=1
+                     /product="bmp-2 protein"
+                     /protein_id="NP_001040506.1"
+                     /db_xref="GeneID:733059"
+                     /translation="MVPQTKVFVGSLPQGSKPEDLRKLFERFGVVTECDIMNRCGFVH
+                     MQTEEQAAAAIRALHNSTFNGGVISVERGRIKERGQRGGGRGGRGSMRGGMERRGGGP
+                     VRHAPPPRDAPYMRDRPGPVRGYERGPPAAPYDERYAYGEDRRGFALMDRGPRDAYAP
+                     PAPAYPDERYQNHISVVEGTRRYDEPPYDDRHYDERAQYERPRPAHHIPNGDMYSRRS
+                     PAPMYSGRGGPAPVAGGYERDHYVPQYMQPPLGRGGGAPRGRDMSGGVGPRRYVAATD
+                     HELQDHTSIVYKLIRIMSIVF"
+ORIGIN      
+        1 atggtgccgc aaacgaaggt gttcgtcggc agcctgccgc agggctccaa accggaggac
+       61 ctaagaaagc tgtttgagcg tttcggcgtc gtcacagagt gtgatataat gaaccggtgc
+      121 gggttcgtgc atatgcagac agaggaacaa gcggcagcgg cgattcgcgc gcttcataac
+      181 tctacattta acggcggcgt catatccgtg gagcgcggtc gcatcaaaga acgcgggcag
+      241 cgtgggggcg gtcgcggtgg acgaggttcc atgcgcggtg gcatggagcg tcgcggaggc
+      301 ggccccgtgc gacacgcgcc cccgcctcgg gacgcaccat acatgaggga ccggccaggt
+      361 ccggtgcgcg gctacgaacg cggtccgccg gcggcgccct atgacgagcg ctatgcgtac
+      421 ggcgaggacc ggcgtgggtt cgcgctgatg gatcgcggcc ctagggacgc ttatgcaccg
+      481 ccggcgcctg cttaccctga cgaacgctac cagaatcaca tctcagtggt ggagggtacg
+      541 cgacgttacg atgagcctcc ctatgacgac cgccactacg acgagcgcgc acagtatgaa
+      601 cgcccgagac ctgctcacca catacctaac ggggacatgt acagccgaag atcacctgcc
+      661 cccatgtatt ccgggcgtgg aggtccagct ccagtggccg gaggttacga gagagatcac
+      721 tatgtaccac aatacatgca acctccattg ggacgcgggg gcggagcgcc acggggccgc
+      781 gacatgtccg ggggcgtcgg cccgcgccgg tacgtagccg ccactgacca cgaacttcag
+      841 gaccacacgt ctatagtcta taagttaatt agaattatgt caatcgtttt ttaa
+//

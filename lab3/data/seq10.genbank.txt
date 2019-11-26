@@ -1,0 +1,63 @@
+LOCUS       XM_626579                597 bp    mRNA    linear   INV 07-MAR-2007
+DEFINITION  Cryptosporidium parvum Iowa II RRM domain containing protein
+            (cgd2_3970) mRNA, partial cds.
+ACCESSION   XM_626579
+VERSION     XM_626579.1
+KEYWORDS    RefSeq.
+SOURCE      Cryptosporidium parvum Iowa II
+  ORGANISM  Cryptosporidium parvum Iowa II
+            Eukaryota; Alveolata; Apicomplexa; Conoidasida; Coccidia;
+            Eucoccidiorida; Eimeriorina; Cryptosporidiidae; Cryptosporidium.
+REFERENCE   1  (bases 1 to 597)
+  AUTHORS   Abrahamsen,M.S., Templeton,T.J., Enomoto,S., Abrahante,J.E.,
+            Zhu,G., Lancto,C.A., Deng,M., Liu,C., Widmer,G., Tzipori,S.,
+            Buck,G.A., Xu,P., Bankier,A.T., Dear,P.H., Konfortov,B.A.,
+            Spriggs,H.F., Iyer,L., Anantharaman,V., Aravind,L. and Kapur,V.
+  TITLE     Complete genome sequence of the apicomplexan, Cryptosporidium
+            parvum
+  JOURNAL   Science 304 (5669), 441-445 (2004)
+   PUBMED   15044751
+REFERENCE   2  (bases 1 to 597)
+  AUTHORS   Abrahamsen,M.S., Templeton,T.J., Enomoto,S., Abrahante,J.E.,
+            Zhu,G., Lancto,C.A., Deng,M. and Liu,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-APR-2004) Veterinary Pathobiology, University of
+            Minnesota, 1988 Fitch Ave., St. Paul, MN 55108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NC_006981).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..597
+                     /organism="Cryptosporidium parvum Iowa II"
+                     /mol_type="mRNA"
+                     /isolate="Iowa type II"
+                     /db_xref="taxon:353152"
+                     /chromosome="2"
+     gene            <1..>597
+                     /locus_tag="cgd2_3970"
+                     /db_xref="ApiDB_CryptoDB:cgd2_3970"
+                     /db_xref="GeneID:3373414"
+     CDS             <1..>597
+                     /locus_tag="cgd2_3970"
+                     /codon_start=1
+                     /product="RRM domain containing protein"
+                     /protein_id="XP_626579.1"
+                     /db_xref="ApiDB_CryptoDB:cgd2_3970"
+                     /db_xref="GeneID:3373414"
+                     /translation="YYLLILLFLKDQLIRHFEKFGNVENCQYIQVMNFAIITFSEKGV
+                     TDNALRSPHVIMGREVNCRLYCDKLEDLAGENSQGTMFRTEKIFVGNLPTTCSQDILR
+                     KYFEQFGQISDCVMMCDKKSGIGRGFGFVTFTSTSVVDEIIRAYDEHYIDGQWVEVKR
+                     ASPENALRGGNMSCNGISSLNATNLSTREKNNTSLLIKS"
+ORIGIN      
+        1 tattatttat taattttatt attcttaaaa gaccaactta taaggcactt tgaaaaattt
+       61 ggaaatgttg agaattgcca atatattcaa gtaatgaact ttgctattat tactttttca
+      121 gaaaaaggtg ttacagataa tgcattaaga tcaccacacg ttattatggg aagagaggtt
+      181 aattgcagat tatattgtga taaattggaa gaccttgcag gtgagaattc tcaaggtaca
+      241 atgttcagaa ctgaaaaaat atttgttgga aatcttccta caacttgttc acaagatatt
+      301 cttaggaaat attttgaaca atttgggcaa ataagtgatt gtgtaatgat gtgtgataaa
+      361 aagagtggta ttggaagagg attcggattt gttacattta ctagcacaag tgtagtagat
+      421 gaaataatta gagcttatga tgaacactat atagatggac aatgggttga agttaaaaga
+      481 gcaagcccag aaaatgcttt aagaggtggt aatatgtctt gcaatggtat aagttctctt
+      541 aatgctacaa atttatcaac tagagaaaaa aataatacaa gtcttttgat caaaagt
+//
