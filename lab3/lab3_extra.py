@@ -8,7 +8,7 @@ __version__ = 1.0
 class GeneFiles:
     def __init__(self, files_count=10, folder='data'):
         self.percents, self.names = [], []
-        self.valid_bases = {'a', 't', 'c', 'g'}
+        self.valid_bases = {'a', 't', 'c', 'g', 'u'}
         self.file_names = ['{}/seq{}.genbank.txt'.format(folder, i) for i in range(1, files_count + 1)] # build list of file names
     
     def getPercentage(self):    
