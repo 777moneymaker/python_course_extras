@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import os
 '''
 Script opens 10 files in 'data' folder.
 Then count's G/C percentage for every file.
@@ -7,6 +6,7 @@ __author__ = Milosz Chodkowski PUT
 __field__ = Bioinformatics
 __version__ = 1.0
 '''
+import os
 
 
 class GeneFiles:
