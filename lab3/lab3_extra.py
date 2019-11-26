@@ -24,7 +24,7 @@ class GeneFiles:
                 self.names.append(my_file.readline().split()[1])
                 oh = my_file.read().split('ORIGIN')[1]
                 for base in oh:
-                    if base in self.valid_bases
+                    if base in self.valid_bases:
                         base_count += 1
                         if base == 'g' or base == 'c':
                             gc_bases += 1
