@@ -1,31 +1,81 @@
-#!/usr/bin/python3
-# zad 20
-file_names = ['data/seq{}.genbank.txt'.format(i) for i in range(1, 11)]
-for file_name in file_names:
-    with open(file_name, 'r') as fh:
-        print(fh.readline().split()[1])
-    fh.close()
-
-# zad 21
-percents, names = [], []
-valid_bases = {'a', 't', 'c', 'g'}
-file_names = ['data/seq{}.genbank.txt'.format(i) for i in range(1, 11)]
-for file_name in file_names:
-    with open(file_name, 'r') as fh:
-        names.append(fh.readline().split()[1])
-
-for file_name in file_names:
-    gc_bases, base_count = 0, 0
-    with open(file_name, 'r') as fh:
-        f = fh.read().split('ORIGIN')[1]
-        for base in f:
-            if base in valid_bases:
-                base_count += 1
-                if base == 'g' or base == 'c':
-                    gc_bases += 1
-        percents.append(gc_bases/base_count)
-for name, percent in zip(names, percents):
-    print('NAME:{} G-C PERCENTAGE: {:.2f} '.format(name, percent*100))
-
-
-
+LOCUS       XM_003063680             882 bp    mRNA    linear   PLN 16-AUG-2010
+DEFINITION  Micromonas pusilla CCMP1545 RNA binding protein (RRM), mRNA.
+ACCESSION   XM_003063680
+VERSION     XM_003063680.1
+KEYWORDS    RefSeq.
+SOURCE      Micromonas pusilla CCMP1545
+  ORGANISM  Micromonas pusilla CCMP1545
+            Eukaryota; Viridiplantae; Chlorophyta; prasinophytes;
+            Mamiellophyceae; Mamiellales; Mamiellaceae; Micromonas.
+REFERENCE   1  (bases 1 to 882)
+  AUTHORS   Worden,A.Z., Lee,J.H., Mock,T., Rouze,P., Simmons,M.P., Aerts,A.L.,
+            Allen,A.E., Cuvelier,M.L., Derelle,E., Everett,M.V., Foulon,E.,
+            Grimwood,J., Gundlach,H., Henrissat,B., Napoli,C., McDonald,S.M.,
+            Parker,M.S., Rombauts,S., Salamov,A., Von Dassow,P., Badger,J.H.,
+            Coutinho,P.M., Demir,E., Dubchak,I., Gentemann,C., Eikrem,W.,
+            Gready,J.E., John,U., Lanier,W., Lindquist,E.A., Lucas,S.,
+            Mayer,K.F., Moreau,H., Not,F., Otillar,R., Panaud,O.,
+            Pangilinan,J., Paulsen,I., Piegu,B., Poliakov,A., Robbens,S.,
+            Schmutz,J., Toulza,E., Wyss,T., Zelensky,A., Zhou,K.,
+            Armbrust,E.V., Bhattacharya,D., Goodenough,U.W., Van de Peer,Y. and
+            Grigoriev,I.V.
+  TITLE     Green evolution and dynamic adaptations revealed by genomes of the
+            marine picoeukaryotes Micromonas
+  JOURNAL   Science 324 (5924), 268-272 (2009)
+   PUBMED   19359590
+REFERENCE   2  (bases 1 to 882)
+  AUTHORS   Grigoriev,I.V., Aerts,A.L., Rombauts,S., Van der Peer,Y.,
+            Grimwood,J., Salamov,A., Zhou,K., Lucas,S., Glavina del Rio,T.,
+            Tice,H., Bruce,D., Pitluck,S., Lindquist,E., VanWye,J.,
+            Cuvelier,M.L. and Worden,A.Z.
+  CONSRTM   Micromonas Genome Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2008) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B100, Walnut Creek, CA 94598-1698, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003315896).
+            COMPLETENESS: incomplete on the 3' end.
+FEATURES             Location/Qualifiers
+     source          1..882
+                     /organism="Micromonas pusilla CCMP1545"
+                     /mol_type="mRNA"
+                     /strain="CCMP1545"
+                     /db_xref="taxon:564608"
+     gene            1..>882
+                     /gene="RRM"
+                     /locus_tag="MICPUCDRAFT_53673"
+                     /db_xref="GeneID:9689167"
+     CDS             40..882
+                     /gene="RRM"
+                     /locus_tag="MICPUCDRAFT_53673"
+                     /note="RRM, RNA recognition motif; expressed"
+                     /codon_start=1
+                     /product="RNA binding protein"
+                     /protein_id="XP_003063726.1"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="JGIDB:MicpuC2_53673"
+                     /db_xref="GeneID:9689167"
+                     /translation="MDIDQSLDAMIKAAPKKGGPKKKPAAGKKKTPVKKTGGGVRAKV
+                     IAKPRRGGQGGRARDVAMAVDDAWQHDRFQGGNRGPRAGGGGGGARLVVSNLHFNVTN
+                     ADVKELFQQVGAVKKAGLNFDENGRSKGTAEIIFASPASAQKAIQTYNGVKLDGRPLK
+                     IELIGGGGGLGGSLAGRLSGVGAGGRTVTFNAGRGGSGVRGGRKVVAKVVSAPRGKKG
+                     AAGGAKGAGGRGAKGGGRGGKGGRGPKPKKATPMTQEQLDAQLDSYKAGAAAAPAGDV
+                     AMME"
+ORIGIN      
+        1 actcacgatc acgcgcacgc ctcgtcgatc gcacgcgcca tggacatcga tcaaagttta
+       61 gacgccatga tcaaggctgc gccgaagaag ggcgggccga agaagaagcc ggccgccggg
+      121 aagaagaaga ccccggtcaa gaagaccggc ggcggcgtcc gcgccaaggt gatcgcgaaa
+      181 ccgcgtcgcg gcggccaagg tggtcgcgcg cgcgacgtcg cgatggccgt cgacgacgcg
+      241 tggcagcacg accgcttcca aggcggcaat cgcggaccca gagcgggcgg cggcggcggc
+      301 ggcgcgaggc tcgtcgtgtc gaaccttcac ttcaacgtca cgaacgcgga cgtcaaggag
+      361 ctgttccagc aagtcggcgc ggtgaagaaa gccgggctga acttcgacga aaacggccga
+      421 agcaagggca ccgcggagat catcttcgcg tctcccgcgt cggcgcagaa ggcgatccag
+      481 acgtacaacg gcgtcaagct cgacggccga ccgctcaaga tcgagctcat cggcggcggc
+      541 ggcggcctcg gcggcagcct cgccgggcgt ttgtccggcg tcggcgccgg cggacggacg
+      601 gtgacgttca acgccggacg cggcggatca ggcgtccgcg gcggacggaa agtcgtcgcc
+      661 aaagtcgtca gcgcgccgcg tggaaagaag ggcgccgcgg gcggcgctaa gggcgccggc
+      721 ggccgcggcg cgaagggcgg cggccgcgga ggtaagggtg ggcgcgggcc gaagccgaag
+      781 aaggcgacgc cgatgacgca ggagcagctc gacgcgcagc tggactcgta caaggctggc
+      841 gccgccgccg cgccagccgg cgacgtcgcg atgatggagt ga
+//
