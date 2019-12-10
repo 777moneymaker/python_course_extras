@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-'''Module written as an extra exercise for AMU's Python course.
-__author__ = Milosz Chodkowski PUT
-___field__ = Bioinformatics
-___version___ = 1.0'''
+'''
+Module written as an extra exercise for AMU's Python course.
+'''
+__author__ = 'Milosz Chodkowski PUT'
+___field__ = 'Bioinformatics'
+___version___ = 1.0
 
 
 class Sequence:
@@ -37,5 +39,4 @@ class Sequence:
 
 if __name__ == '__main__':
     S = Sequence()
-    print(S.validate())
-    print(S.validate('()))((()'))
+    print(S.validate('...(..)))(((..)..'))
