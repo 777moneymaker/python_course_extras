@@ -20,11 +20,11 @@ def generateSequence():
 	return val
 
 def solve():
-	generations = 1
-	best_dist, best_solution = 40, None
+	generations = 0
+	best_dist, best_solution = len(LETTERS), None
 
 	while best_dist > 0:
-		val = generateSequence() if generations == 1 else best_solution
+		val = generateSequence() if not generations else best_solution
 		sequences, new_l = [val for i in range(100)], list()
 		for i in range(len(sequences)):
 			word = list(sequences[i])
@@ -36,7 +36,7 @@ def solve():
 					best_dist = sol[0]
 					best_solution = sol[1]
 		sleep(0.1)
-		print(generations, best_solution)
+		print(generations + 1, best_solution)
 		generations += 1
 
 if __name__ == '__main__':
