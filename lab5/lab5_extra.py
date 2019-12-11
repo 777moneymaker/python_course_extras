@@ -5,8 +5,8 @@ from time import sleep
 
 __author__ = 'Milosz Chodkowski PUT'
 
-LETTERS = string.ascii_uppercase + ' '
-DEFAULT_SENTENCE = 'METHINKS IT IS LIKE A WEASEL'
+LETTERS = string.ascii_uppercase + ' ' + '.'
+DEFAULT_SENTENCE = 'METHINKS IT IS LIKE A WEASEL.'
 
 
 def hammingDist(sentence):
