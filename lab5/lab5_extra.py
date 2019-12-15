@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import string
 import random
+from time import sleep
 
 __author__ = 'Milosz Chodkowski PUT'
 
-LETTERS = string.ascii_uppercase + ' ' + '.'
+LETTERS = string.ascii_uppercase + ' '
 TARGET_SENTENCE = 'METHINKS IT IS LIKE A WEASEL'
-
 
 def hammingDistance(sentence):
     count = 0
@@ -21,9 +21,9 @@ def generateRandomSentence():
     return new_sentence
 
 
-def solve():
+def main():
     generation = 0
-    best_dist, best_solution = len(LETTERS), LETTERS
+    best_dist, best_solution = len(LETTERS) + 1, LETTERS # len == 27 + 1
 
     while best_dist > 0:
         random_sentence = generateRandomSentence() if not generation else best_solution
@@ -38,9 +38,10 @@ def solve():
             if sol[0] < best_dist:
                 best_dist = sol[0]
                 best_solution = sol[1]
+        sleep(0.05)
         print(generation + 1, best_solution)
         generation += 1
 
 
 if __name__ == '__main__':
-    solve()
+    main()
