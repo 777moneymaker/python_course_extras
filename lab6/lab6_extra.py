@@ -7,7 +7,7 @@ def remove_all_occurences(array, val):
 
 	Args:
 	param1 (list): List in which value should be removed.
-	param2 (number/string): Value which has to be removed.
+	param2 (object): Value which has to be removed.
 
 	Returns:
 	list: list without given value.
