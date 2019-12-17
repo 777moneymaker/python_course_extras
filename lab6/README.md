@@ -9,4 +9,4 @@ Purpose
 
 Author
 -----
-** Miłosz Chodkowski_PUT Poznan** [777moneymaker](https://github.com/777moneymaker)
+* Miłosz Chodkowski_PUT Poznan [777moneymaker](https://github.com/777moneymaker)
