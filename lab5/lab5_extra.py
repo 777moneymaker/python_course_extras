@@ -21,26 +21,33 @@ def generateRandomSentence():
     return new_sentence
 
 
-def main():
-    generation = 0
+def solve():
+    first_genre = True
     best_dist, best_solution = len(LETTERS) + 1, LETTERS # len == 27 + 1
+    best_solutions = list()
 
     while best_dist > 0:
-        random_sentence = generateRandomSentence() if not generation else best_solution
+        random_sentence = generateRandomSentence() if first_genre else best_solution
         new_l, sentences = list(), [random_sentence for i in range(100)]
         for mark in sentences:
             mark = list(mark)
             mark[random.randint(0, len(mark) - 1)] = random.choice(LETTERS)
             new_l.append(''.join(mark))
-
         solutions = map(hammingDistance, new_l)
         for sol in solutions:
             if sol[0] < best_dist:
                 best_dist = sol[0]
                 best_solution = sol[1]
-        sleep(0.05)
-        print(generation + 1, best_solution)
-        generation += 1
+                first_genre = False
+                best_solutions.append(best_solution)
+    return best_solutions
+
+
+def main():
+    results = solve()
+    for i, result in enumerate(results, start=1):
+        sleep(0.1)
+        print(i, result)
 
 
 if __name__ == '__main__':
