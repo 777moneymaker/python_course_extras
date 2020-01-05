@@ -8,11 +8,11 @@ def remove_all_occurences(array: list, val: object) -> list:
 	"""Remove all occureences of value in given list.
 
 	Args:
-		param1 (list): List in which value should be removed.
-		param2 (object): Value which has to be removed.
+		array (list): List containing value.
+		val (object): Value to be removed.
 
 	Returns:
-		list: list without given value.
+		list: List without given value.
 	"""
 	return [x for x in array if x != val]
 
@@ -20,10 +20,10 @@ def get_all_substrings(sequence: str) -> list:
 	"""Get every substring from sequence.
 
 	Args:
-		param (str): Sequence from which every substring should be sliced.
+		sequence (str): Sequence containing substrings.
 
 	Returns:
-		list: Every substring that can be created from given sequence.
+		list: Every substring that can be created.
 	"""
 	return [sequence[i: j] for i in range(len(sequence)) for j in range(i + 1, len(sequence) + 1)]
 
@@ -31,7 +31,7 @@ def complement(sequence: str) -> str:
 	"""Get complementary DNA sequence.
 
 	Args:
-		param (str): DNA sequence:
+		sequence (str): DNA sequence:
 
 	Returns:
 		str: Complementary sequence.
@@ -43,7 +43,7 @@ def reverse_complement(sequence: str) -> str:
 	"""Get reversed complementary DNA sequence.
 
 	Args: 
-		param (str) DNA sequence.
+		sequence (str) DNA sequence.
 
 	Returns:
 		str: Reversed complementary sequence.
@@ -55,7 +55,7 @@ def restriction_sites(sequence: str) -> PalindromeList:
 	"""Get every palindrome sub-sequence with given property: 4 <= len(param) <= 12.
 
 	Args:
-		param (str): DNA sequence.
+		sequence (str): DNA sequence.
 
 	Returns:
 		PalindromeList: starting index, ending index, palindrome sub-sequence.
@@ -67,13 +67,13 @@ def restriction_sites(sequence: str) -> PalindromeList:
 
 	# Delete invalid susbstrings.
 	for chop in substrings:
-		if len(chop) > 12 or len(chop) < 4:
+		if 4 < len(chop) < 12:
 			substrings = remove_all_occurences(substrings, chop)
 
 	for chop in substrings:
 		for i in range(len(sequence)):
 			# Found in slice, equal to reverse_complement.
-			if chop in sequence[i:len(chop)+i] and chop == reverse_complement(chop):
+			if chop == sequence[i:len(chop)+i] and chop == reverse_complement(chop):
 				start, end = i+1, len(chop)+i
 				final = (start, end, chop)
 				# Only unique.
@@ -84,7 +84,8 @@ def restriction_sites(sequence: str) -> PalindromeList:
 
 
 if __name__ == '__main__':
-	dna = 'TCAATGCATGCGGGTCTATATGCAT'
+	with open('fasta.txt', 'r') as fh:
+		dna = fh.read().split('\n')[1]
 	slices = restriction_sites(dna)
 	for chop in slices:
 		print(chop)

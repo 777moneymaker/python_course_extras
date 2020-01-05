@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 import string
 import random
-from time import sleep
 
 __author__ = 'Milosz Chodkowski PUT'
 
-LETTERS = string.ascii_uppercase + ' '
-TARGET_SENTENCE = 'METHINKS IT IS LIKE A WEASEL'
+LETTERS = string.ascii_uppercase + string.punctuation + ' '
+with open('sentence.txt', 'r') as fh:
+    TARGET_SENTENCE = fh.read()
 
 def hammingDistance(sentence):
-    return sum(c1 != c2 for c1, c2 in zip(sentence, TARGET_SENTENCE)), sentence
+    count = sum(c1 != c2 for c1, c2 in zip(sentence, TARGET_SENTENCE))
+    return (count, sentence)
 
 
 def generateRandomSentence():
@@ -18,16 +19,17 @@ def generateRandomSentence():
 
 def solve():
     iteration = 0
-    best_dist, best_solution = len(LETTERS) + 1, LETTERS # len == 27 + 1
+    best_dist, best_solution = len(TARGET_SENTENCE) + 1, generateRandomSentence() # len == 27 + 1
 
     while best_dist > 0:
-        random_sentence = generateRandomSentence() if not iteration else best_solution
-        new_l, sentences = list(), [random_sentence] * 100
+        sentences = [best_solution] * 100
         for mark in sentences:
             mark = list(mark)
             mark[random.randint(0, len(mark) - 1)] = random.choice(LETTERS)
-            new_l.append(''.join(mark))
-        solutions = map(hammingDistance, new_l)
+            sentences.append(''.join(mark)) 
+            del sentences[0]
+        
+        solutions = map(hammingDistance, sentences)
         for sol in solutions:
             if sol[0] < best_dist:
                 best_dist, best_solution = sol[0], sol[1] 
