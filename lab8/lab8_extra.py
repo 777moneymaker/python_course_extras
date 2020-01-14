@@ -8,7 +8,7 @@ with open('lotto_history.txt', 'r') as fh:
 
 def main():
 	counters = list(map(lambda x: (x, NUMBERS.count(x)), set(NUMBERS)))
-	print(sorted(counters, key=lambda x: x[1], reverse=True)[:6])
+	print(sorted(counters, key=lambda x: x[1], reverse=True)[:10])
 
 
 if __name__ == '__main__':
