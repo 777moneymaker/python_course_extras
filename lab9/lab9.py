@@ -68,27 +68,28 @@ def read_sequences(f_gen: str, f_ann: str, f_save: str, user_type: str):
 			
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Retrieve FASTA sequences')
-	parser.add_argument('-g', '-G', '--genome', 
-		required=True, 
-		dest='genome_filename', 
+	parser.add_argument(
+		'-g', '-G', '--genome',
+		required=True,
+		dest='genome_filename',
 		help='input genomic FASTA filename'
 		)
 	parser.add_argument(
-		'-a', '-A', '--annotation', 
-		required = True, 
-		dest='annotation_filename',	                    
-	    help='input annotation GTF filename'
+		'-a', '-A', '--annotation',
+		required = True,
+		dest='annotation_filename',
+		help='input annotation GTF filename'
 	    )
 	parser.add_argument(
-		'-f', '-F', '--feature', '--feat', 
+		'-f', '-F', '--feature', '--feat',
 		dest='seq_type',
-        choices=['gene', 'transcript', 'exon', 'CDS'],
-        default='gene', 
+		choices=['gene', 'transcript', 'exon', 'CDS'],
+        default='gene',
         help='gene / transcript / exon / CDS (default: gene)'
         )
 	parser.add_argument(
-		'-s', '-S', '--save', 
-		dest='save_filename', 
+		'-s', '-S', '--save',
+		dest='save_filename',
 		default='genes.txt',
 		help='save txt filename'
 	    )
