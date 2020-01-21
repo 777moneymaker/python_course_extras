@@ -90,6 +90,7 @@ if __name__ == '__main__':
 		'-s', '-S', '--save', 
 		dest='save_filename', 
 		default='genes.txt',	                    
-	    help='save txt filename')
+	    help='save txt filename'
+	    )
 	args = parser.parse_args()
 	read_sequences(args.genome_filename, args.annotation_filename, args.save_filename, args.seq_type)
