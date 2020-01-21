@@ -72,26 +72,22 @@ if __name__ == '__main__':
 		'-g', '-G', '--genome',
 		required=True,
 		dest='genome_filename',
-		help='input genomic FASTA filename'
-		)
+		help='input genomic FASTA filename')
 	parser.add_argument(
 		'-a', '-A', '--annotation',
 		required = True,
 		dest='annotation_filename',
-		help='input annotation GTF filename'
-	    )
+		help='input annotation GTF filename')
 	parser.add_argument(
 		'-f', '-F', '--feature', '--feat',
 		dest='seq_type',
 		choices=['gene', 'transcript', 'exon', 'CDS'],
         default='gene',
-        help='gene / transcript / exon / CDS (default: gene)'
-        )
+        help='gene / transcript / exon / CDS (default: gene)')
 	parser.add_argument(
 		'-s', '-S', '--save',
 		dest='save_filename',
 		default='genes.txt',
-		help='save txt filename'
-	    )
+		help='save txt filename')
 	args = parser.parse_args()
 	read_sequences(args.genome_filename, args.annotation_filename, args.save_filename, args.seq_type)
