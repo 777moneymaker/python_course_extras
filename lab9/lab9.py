@@ -89,8 +89,8 @@ if __name__ == '__main__':
 	parser.add_argument(
 		'-s', '-S', '--save', 
 		dest='save_filename', 
-		default='genes.txt',	                    
-	    help='save txt filename'
+		default='genes.txt',
+		help='save txt filename'
 	    )
 	args = parser.parse_args()
 	read_sequences(args.genome_filename, args.annotation_filename, args.save_filename, args.seq_type)
