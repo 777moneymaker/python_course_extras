@@ -81,7 +81,8 @@ if __name__ == '__main__':
 	parser.add_argument(
 		'-f', '-F', '--feature', '--feat',
 		dest='seq_type',
-		choices=['gene', 'transcript', 'exon', 'CDS'],default='gene',help='gene / transcript / exon / CDS (default: gene)')
+		choices=['gene', 'transcript', 'exon', 'CDS'],
+		default='gene',help='gene / transcript / exon / CDS (default: gene)')
 	parser.add_argument(
 		'-s', '-S', '--save',
 		dest='save_filename',
