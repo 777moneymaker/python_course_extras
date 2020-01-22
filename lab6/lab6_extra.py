@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+'''Module written as an extra exercise for AMU's Python course.'''
 
 from typing import List, Tuple
 
 __author__ = 'Milosz Chodkowski PUT'
+__field__ = 'Bioinformatics'
+__version__ = 1.0
 
 def remove_all_occurences(array: list, val: object) -> list:
 	"""Remove all occureences of value in given list.

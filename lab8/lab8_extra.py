@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+'''Module written as an extra exercise for AMU's Python course.'''
 
 __author__ = 'Milosz Chodkowski PUT'
+__field__ = 'Bioinformatics'
+__version__ = 1.0
 
 def main():
 	with open('lotto_history.txt', 'r') as fh:

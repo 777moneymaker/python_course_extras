@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+'''Module written as an extra exercise for AMU's Python course.'''
+
 import string
 import random
 
 __author__ = 'Milosz Chodkowski PUT'
+__field__ = 'Bioinformatics'
+__version__ = 1.0
 
 LETTERS = string.ascii_uppercase + string.punctuation + ' '
 with open('sentence.txt', 'r') as fh:
@@ -12,10 +16,8 @@ def hammingDistance(sentence):
     count = sum(c1 != c2 for c1, c2 in zip(sentence, TARGET_SENTENCE))
     return (count, sentence)
 
-
 def generateRandomSentence():
     return ''.join(random.choice(LETTERS) for i in range(len(TARGET_SENTENCE)))
-
 
 def solve():
     iteration = 0

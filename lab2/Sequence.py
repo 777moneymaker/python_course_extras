@@ -23,7 +23,7 @@ class Sequence:
         for char in seq:
             # If there is any other char than parentheses or dot
             if char not in valid_chars:
-                print('\'{}\' not valid in dot bracket format!'.format(char))
+                print(f'\'{char}\' not valid in dot bracket format!')
                 return False
             if char == OPEN_PAR or char == CLOSED_PAR:
                 pars.append(char)
@@ -39,4 +39,4 @@ class Sequence:
 
 if __name__ == '__main__':
     S = Sequence()
-    print(S.validate('...(..)))(((..)..'))
+    print(S.validate('...(..)(..)...'))

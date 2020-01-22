@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''
+'''Module written as an extra exercise for AMU's Python course.
+
 Script opens 10 files in 'data' folder.
 Then count's G/C percentage for every file.
 '''
@@ -15,8 +16,7 @@ class GeneFiles:
         self.THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
         self.percents, self.names = [], []
         self.valid_bases = {'a', 't', 'c', 'g', 'u'}
-        self.file_names = ['{}/{}/seq{}.genbank.txt'.format(
-            self.THIS_FOLDER, folder, i) for i in range(1, files_count + 1)]
+        self.file_names = [f'{self.THIS_FOLDER}/{folder}/seq{i}.genbank.txt' for i in range(1, files_count + 1)]
 
     def getPercentage(self):
         for file_name in self.file_names:
@@ -32,7 +32,7 @@ class GeneFiles:
                 self.percents.append(gc_bases / base_count)
             my_file.close()
         for name, percent in zip(self.names, self.percents):
-            print('NAME:{} G/C PERCENTAGE: {:.2f} '.format(name, percent * 100))
+            print(f'NAME: {name} G/C PERCENTAGE: {percent * 100:.2f}')
 
 
 if __name__ == '__main__':

@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+'''Module written as an extra exercise for AMU's Python course.'''
 
 import random
 import argparse
+
+__author__ = 'Milosz Chodkowski PUT'
+__field__ = 'Bioinformatics'
+__version__ = 1.0
 
 def wrap(seq: str):
 	'''Wraps the sequence by inserting the '\n' char
