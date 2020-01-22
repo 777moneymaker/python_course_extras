@@ -61,8 +61,9 @@ def read_sequences(f_gen: str, f_ann: str, f_save: str, user_type: str):
 					strand = line.split('\t')[6].strip()
 					identifier = line.split('\t')[8].split(' ')[1].rstrip(';').strip('\"')
 					# Save file.
-					full_name = '>{}|{}|{}|{}:{}|{}\n{}\n'.format(
-						name, seq_type, identifier, start, stop, strand, wrap(CONTIGS[name][start:stop+1]))
+					full_name = f'>{name}|{seq_type}|{identifier} \
+								|{start}:{stop}|{strand}\n \
+								{wrap(CONTIGS[name][start:stop+1])} \n'
 					fh_save.write(full_name)
 
 			
@@ -82,7 +83,8 @@ if __name__ == '__main__':
 		'-f', '-F', '--feature', '--feat',
 		dest='seq_type',
 		choices=['gene', 'transcript', 'exon', 'CDS'],
-		default='gene',help='gene / transcript / exon / CDS (default: gene)')
+		default='gene',
+		help='gene / transcript / exon / CDS (default: gene)')
 	parser.add_argument(
 		'-s', '-S', '--save',
 		dest='save_filename',
