@@ -15,6 +15,7 @@ def hamming_distance(sentence):
 
 def generate_random_sentence():
     return ''.join(random.choice(LETTERS) for _ in range(len(TARGET_SENTENCE)))
+
 def main():
     iteration = 0
     best_dist = len(TARGET_SENTENCE)
