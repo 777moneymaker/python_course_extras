@@ -5,33 +5,30 @@ import string
 import random
 
 __author__ = 'Milosz Chodkowski PUT'
-__field__ = 'Bioinformatics'
-__version__ = 1.0
 
-LETTERS = string.ascii_uppercase + string.punctuation + ' '
-with open('sentence.txt', 'r') as fh:
-    TARGET_SENTENCE = fh.read()
+LETTERS = string.ascii_uppercase + ' '
+TARGET_SENTENCE = 'METHINKS IT IS A WEASEL'
 
-def hammingDistance(sentence):
+def hamming_distance(sentence):
     count = sum(c1 != c2 for c1, c2 in zip(sentence, TARGET_SENTENCE))
-    return (count, sentence)
+    return count, sentence
 
-def generateRandomSentence():
-    return ''.join(random.choice(LETTERS) for i in range(len(TARGET_SENTENCE)))
-
-def solve():
+def generate_random_sentence():
+    return ''.join(random.choice(LETTERS) for _ in range(len(TARGET_SENTENCE)))
+def main():
     iteration = 0
-    best_dist, best_solution = len(TARGET_SENTENCE) + 1, generateRandomSentence() # len == 27 + 1
-
+    best_dist = len(TARGET_SENTENCE)
+    best_solution = generate_random_sentence()
+    length = len(TARGET_SENTENCE)
     while best_dist > 0:
         sentences = [best_solution] * 100
-        for mark in sentences:
-            mark = list(mark)
-            mark[random.randint(0, len(mark) - 1)] = random.choice(LETTERS)
-            sentences.append(''.join(mark)) 
+        for sentence in sentences:
+            sentence = list(sentence)
+            sentence[random.choice(range(length))] = random.choice(LETTERS)
+            sentences.append(''.join(sentence)) 
             del sentences[0]
         
-        solutions = map(hammingDistance, sentences)
+        solutions = map(hamming_distance, sentences)
         for sol in solutions:
             if sol[0] < best_dist:
                 best_dist, best_solution = sol[0], sol[1] 
@@ -40,4 +37,4 @@ def solve():
 
 
 if __name__ == '__main__':
-    solve()
+    main()

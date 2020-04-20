@@ -1,25 +1,12 @@
 #!/usr/bin/python3
 '''Module written as an extra exercise for AMU's Python course.'''
 
-from typing import List, Tuple
+from pathlib import Path
+from Bio import SeqIO
 
 __author__ = 'Milosz Chodkowski PUT'
-__field__ = 'Bioinformatics'
-__version__ = 1.0
 
-def remove_all_occurences(array: list, val: object) -> list:
-	"""Remove all occureences of value in given list.
-
-	Args:
-		array (list): List containing value.
-		val (object): Value to be removed.
-
-	Returns:
-		list: List without given value.
-	"""
-	return [x for x in array if x != val]
-
-def get_all_substrings(sequence: str) -> list:
+def get_all_substrings(sequence):
 	"""Get every substring from sequence.
 
 	Args:
@@ -28,9 +15,11 @@ def get_all_substrings(sequence: str) -> list:
 	Returns:
 		list: Every substring that can be created.
 	"""
-	return [sequence[i: j] for i in range(len(sequence)) for j in range(i + 1, len(sequence) + 1)]
+	subs = [sequence[i:j] for i, char1 in enumerate(sequence) for j, char2 in enumerate(sequence, i+1)]
+	subs = filter(lambda x: 4 <= len(x) <= 12, subs)
+	return set(subs)
 
-def complement(sequence: str) -> str:
+def complement(sequence):
 	"""Get complementary DNA sequence.
 
 	Args:
@@ -42,7 +31,7 @@ def complement(sequence: str) -> str:
 	complement_bases = {'A': 'T','T': 'A', 'C': 'G', 'G': 'C'}
 	return ''.join(complement_bases[base] for base in sequence.upper())
 
-def reverse_complement(sequence: str) -> str:
+def reverse_complement(sequence):
 	"""Get reversed complementary DNA sequence.
 
 	Args: 
@@ -53,8 +42,7 @@ def reverse_complement(sequence: str) -> str:
 	"""
 	return complement(sequence)[::-1]
 
-PalindromeList = List[Tuple[int, int, str]]
-def restriction_sites(sequence: str) -> PalindromeList:
+def restriction_sites(sequence):
 	"""Get every palindrome sub-sequence with given property: 4 <= len(param) <= 12.
 
 	Args:
@@ -62,33 +50,21 @@ def restriction_sites(sequence: str) -> PalindromeList:
 
 	Returns:
 		PalindromeList: starting index, ending index, palindrome sub-sequence.
-	
-	Example:
-		[(4, 7, 'TGCA')]
 	"""
-	results, substrings = list(), get_all_substrings(sequence)
-
-	# Delete invalid susbstrings.
-	for chop in substrings:
-		if 4 < len(chop) < 12:
-			substrings = remove_all_occurences(substrings, chop)
-
-	for chop in substrings:
-		for i in range(len(sequence)):
-			# Found in slice, equal to reverse_complement.
-			if chop == sequence[i:len(chop)+i] and chop == reverse_complement(chop):
-				start, end = i+1, len(chop)+i
-				final = (start, end, chop)
-				# Only unique.
-				if final not in results:
-					results.append(final)
-	# Sort by start value.
-	return sorted(results, key=lambda x: x[0])
+	results = set()
+	substrings = get_all_substrings(sequence)
+	
+	for chop in substrings:	
+		length = len(chop)
+		for i, char in enumerate(sequence):
+			if chop == sequence[i : i+length] and chop == reverse_complement(chop):
+				final = (i+1, i+length, str(chop))
+				results.add(final)
+	return results
 
 
 if __name__ == '__main__':
-	with open('fasta.txt', 'r') as fh:
-		dna = fh.read().split('\n')[1]
-	slices = restriction_sites(dna)
-	for chop in slices:
-		print(chop)
+	file = Path(__file__).parent.joinpath('fasta.txt')
+	seq = next(SeqIO.parse(file, 'fasta')).seq
+	slices = restriction_sites(seq)
+	print(*sorted(slices), sep='\n')
